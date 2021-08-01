@@ -1,0 +1,50 @@
+﻿,AID,original_counts,expanded_counts,Assay Name,Comment,Source
+40,651777,0,6,qHTS assay for environmental chemicals that activate the Aryl hydrocarbon Receptor (AhR) signaling pathway,AhR activator,NCATS
+12,743122,13,28,qHTS assay to identify small molecule that activate the aryl hydrocarbon receptor (AhR) signaling pathway: Summary,AhR activator,Tox21
+49,1159528,0,3,qHTS assay to identify small molecule agonists of the AP-1 signaling pathway: Summary,AP-1 agonist,Tox21
+,1259387,,,qHTS assay to identify small molecule agonists of the androgen receptor (AR) signaling pathway in the presence of an antagonist: Summary,AR agonist,Tox21
+,743054,,,qHTS assay to identify small molecule antagonists of the androgen receptor (AR) signaling pathway using the MDA cell line: Summary,AR antagonist,Tox21
+71,1259247,0,8,qHTS assay to identify small molecule antagonists of the androgen receptor (AR) signaling pathway using the MDA cell line in the presence of 0.5 nM R1881: Summary,AR antagonist in R1881,Tox21
+14,743219,6,7,qHTS assay for small molecule agonists of the antioxidant response element (ARE) signaling pathway: Summary,ARE agonist,Tox21
+39,651741,0,8,qHTS assay for small molecule agonists of the antioxidant response element (ARE) signaling pathway,ARE agonists,NCATS
+,743139,,,qHTS assay to identify aromatase inhibitors: Summary,Aromatase inhibitors,Tox21
+24,1224892,9,17,qHTS assay to identify small molecule agonists of the constitutive androstane receptor (CAR) signaling pathway: Summary,CAR agonist,Tox21
+,1224893,,,qHTS assay to identify small molecule antagonists of the constitutive androstane receptor (CAR) signaling pathway: Summary,CAR antagonist,Tox21
+,1347037,,,"Caspase-3/7 induction in CHO-K1 cells by small molecules, qHTS assay: Summary",Caspase CHO-K1,Tox21
+85,1347034,0,3,"Caspase-3/7 induction in HepG2 cells by small molecules, qHTS assay: Summary",Caspase HepG2,Tox21
+,1159519,,,qHTS assay to identify small molecule agonists of the endoplasmic reticulum stress response signaling pathway: Summary,Endoplasmic reticulum stress response agonist,Tox21
+9,743079,4,6,qHTS assay to identify small molecule agonists of the estrogen receptor alpha (ER-alpha) signaling pathway using the BG1 cell line,ER-alpha agonist,Tox21
+,1259391,,,qHTS assay to identify small molecule agonists of the estrogen receptor alpha (ER-alpha) signaling pathway in the presence of an antagonist: Summary,ER-alpha agonist,Tox21
+8,743078,3,0,qHTS assay to identify small molecule antagonists of the estrogen receptor alpha (ER-alpha) signaling pathway: Summary,ER-alpha antagonist,Tox21
+,743091,,,qHTS assay to identify small molecule antagonists of the estrogen receptor alpha (ER-alpha) signaling pathway using the BG1 cell line: Summary,ER-alpha antagonist,Tox21
+,1259248,,,qHTS assay to identify small molecule antagonists of the estrogen receptor alpha (ER-alpha) signaling pathway using the BG1 cell line in the presence of 0.1 nM 17-beta-estradiol: Summary,ER-alpha antagonist in estradiol,Tox21
+,1259394,,,qHTS assay to identify small molecule agonists of the estrogen receptor beta (ER-beta) signaling pathway: Summary,ER-beta agonist,Tox21
+79,1259396,0,3,qHTS assay to identify small molecule antagonists of the estrogen receptor beta (ER-beta) signaling pathway: Summary,ER-beta antagonist,Tox21
+51,1224820,0,3,qHTS assay to identify small molecule agonists of the estrogen related receptor (ERR) signaling pathway,ERR agonist,Tox21
+80,1259404,0,7,qHTS assay to identify small molecule agonists of the estrogen related receptor (ERR) signaling pathway from Tox21 library: Summary,ERR agonist,Tox21
+30,1259403,3,6,qHTS assay to identify small molecule antagonists of the estrogen related receptor (ERR) signaling pathway from Tox21 library: Summary,ERR antagonist,Tox21
+18,1224835,6,10,qHTS assay to identify small molecule inhibitors of firefly luciferase,firefly luciferase inhibitor,Tox21
+1,720516,4,8,qHTS assay for small molecules that induce genotoxicity in human embryonic kidney cells expressing luciferase-tagged ATAD5: Summary,Genotoxicity-ATAD5,Tox21
+41,651838,0,4,qHTS assay for identifying genotoxic compounds that show differential cytotoxicity against a panel of isogenic chicken DT40 cell lines with known DNA damage response pathways,Genotoxicity-DT40,NCATS
+4,743012,5,7,qHTS assay for identifying genotoxic compounds that show differential cytotoxicity against isogenic chicken DT40 cell lines with known DNA damage response pathways - wild type cell line,Genotoxicity-DT40,Tox21
+5,743014,10,12,qHTS assay for identifying genotoxic compounds that show differential cytotoxicity against isogenic chicken DT40 cell lines with known DNA damage response pathways - Rev3 mutant cell line,Genotoxicity-DT40,Tox21
+6,743015,7,11,qHTS assay for identifying genotoxic compounds that show differential cytotoxicity against isogenic chicken DT40 cell lines with known DNA damage response pathways - Rad54/Ku70 mutant cell line,Genotoxicity-DT40,Tox21
+66,1224896,0,5,qHTS assay to identify small molecule agonists of H2AX: Summary,H2AX agonist,
+77,1259388,0,9,qHTS assay to identify small molecule HDAC inhibitors: Summary,HDAC inhibitor,Tox21
+48,743228,0,4,qHTS assay for small molecule activators of the heat shock response signaling pathway: Summary,Heat shock response activators,Tox21
+58,1224871,0,3,A CellTox Green Cytotoxicity Assay to monitor cytotoxicity in HEK293 cells - 40 hour,HEK293 cytotoxicity,Tox21
+63,1224879,0,6,A CellTox Green Cytotoxicity Assay to monitor cytotoxicity in HepG2 cells - 40 hour,HepG cytotoxicity,Tox21
+,1224894,,,qHTS assay to identify small molecule agonists of the hypoxia (HIF-1) signaling pathway: Summary,HIF-1 agonist,Tox21
+0,1188,22,22,DSSTox (EPAFHM) EPA Fathead Minnow Acute Toxicity,Minnow Toxicity,EPA DSSTox
+3,720637,7,9,qHTS assay for small molecule disruptors of the mitochondrial membrane potential: Summary,Mitochondrial disruptors,Tox21
+29,1259402,3,10,qHTS assay to identify small molecule agonists of the estrogen related receptor signaling pathway with the pleiotropic PPARgamma coactivator (PGC) from Tox21 10K library: Summary,PGC agonist,Tox21
+,1259401,,,qHTS assay to identify small molecule antagonists of the estrogen related receptor signaling pathway with the pleiotropic PPARgamma coactivator (PGC) from Tox21 10K library: Summary,PGC antagonist,Tox21
+,1347036,,,"Progesterone receptor (PR) small molecule agonists, qHTS assay: Summary",PR agonist,Tox21
+84,1347031,0,14,"Progesterone receptor (PR) small molecule antagonists, qHTS assay: Summary",PR antagonist,Tox21
+36,1347033,8,18,Human pregnane X receptor (PXR) small molecule agonists: Summary,PXR agonist,Tox21
+16,1159553,5,13,qHTS assay to identify small molecule agonists of the retinoic acid receptor (RAR) signaling pathway,RAR agonist,Tox21
+,1159531,,,qHTS assay to identify small molecule agonists of the RXR signaling pathway: Summary,RXR agonist,Tox21
+,1259390,,,qHTS assay to identify small molecule agonists of the sonic hedgehog signaling (Shh) pathway: Summary,Shh agonist,Tox21
+78,1259392,0,8,qHTS assay to identify small molecule antagonists of the sonic hedgehog signaling (Shh) pathway: Summary,Shh antagonist,Tox21
+,743067,,,qHTS assay to identify small molecule antagonists of the thyroid receptor (TR) signaling pathway: Summary,TR antagonist,Tox21
+,743241,,,qHTS assay to identify small molecule agonists of the vitamin D receptor (VDR) signaling pathway: Summary,VDR agonist,Tox21
