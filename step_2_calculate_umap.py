@@ -13,8 +13,8 @@ scaler = StandardScaler()
 np_scaled = scaler.fit_transform(df)
 
 # umap_model = UMAP(n_neighbors=50, min_dist=0.25, random_state=42)  standard condition
-umap_model = UMAP(n_neighbors=100, min_dist=0.25, random_state=42)
-version = "100_025_0309"
+umap_model = UMAP(n_neighbors=50, min_dist=0.1, random_state=42)
+version = "50_01_0309"
 np_umap_result = umap_model.fit_transform(np_scaled)
 df_umap_result = pd.DataFrame(np_umap_result, columns=['UMAP-1', 'UMAP-2'])
 df = df.reset_index()
