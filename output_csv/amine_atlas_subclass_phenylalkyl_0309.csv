@@ -1,0 +1,122 @@
+CID,RDKIT_SMILES,Type,UMAP-1,UMAP-2,Class,Subclass
+7504,NCc1ccccc1,Existing,9.203311,-2.4488816000000004,Phenylalkyl amines,Benzylamines
+66035,Cc1ccc(CN)cc1,Existing,9.463628,-2.175193,Phenylalkyl amines,Benzylamines
+1001,NCCc1ccccc1,Existing,8.761019000000001,-3.5813904,Phenylalkyl amines,Phenylethylamines
+7408,CC(N)c1ccccc1,Existing,9.524902,-1.3633933999999999,Phenylalkyl amines,1-Phenylethylamines
+643189,CC(N)c1ccccc1,Existing,9.545571,-1.3239163999999999,Phenylalkyl amines,1-Phenylethylamines
+75818,CC(N)c1ccccc1,Existing,9.572294,-1.2955704,Phenylalkyl amines,1-Phenylethylamines
+76751,Cc1ccc(CCN)cc1,Existing,8.837544,-3.4447102999999997,Phenylalkyl amines,Phenylethylamines
+1547949,CC(CN)c1ccccc1,Existing,9.045586,-4.515455,Phenylalkyl amines,2-Phenylpropylamines
+1547950,CC(CN)c1ccccc1,Existing,9.129883,-4.518718,Phenylalkyl amines,2-Phenylpropylamines
+414329,Cc1cc(C)cc(CCN)c1,Existing,8.809142999999999,-3.5776057,Phenylalkyl amines,Phenylethylamines
+16259,NCCCc1ccccc1,Existing,9.7261715,-4.5722904,Phenylalkyl amines,Phenylpropylamines
+83242,NCCCCc1ccccc1,Existing,9.640571000000001,-4.419069,Phenylalkyl amines,Phenylbutylamines
+137282,NCc1ccc2ccccc2c1,Existing,9.885648,-2.6817279999999997,Phenylalkyl amines,Benzylamines
+98089,CC(N)c1cccc2ccccc12,Existing,10.261229,-2.2296080000000003,Phenylalkyl amines,1-Phenylethylamines
+66325,CC(N)c1cccc2ccccc12,Existing,10.324669,-2.0824447,Phenylalkyl amines,1-Phenylethylamines
+2724264,CC(N)c1cccc2ccccc12,Existing,10.346272,-2.1932921000000003,Phenylalkyl amines,1-Phenylethylamines
+3784378,NCCc1ccc2ccccc2c1,Existing,9.554846000000001,-3.4138343,Phenylalkyl amines,Phenylethylamines
+28210,NCCc1ccc(-c2ccccc2)cc1,Existing,8.966583,-3.5236976,Phenylalkyl amines,Phenylethylamines
+3311060,NCCCCc1ccc2ccc3cccc4ccc1c2c34,Existing,11.266328999999999,-4.173862000000001,Phenylalkyl amines,Phenylbutylamines
+4657,COc1ccc(CCN)cc1,Existing,9.491455,-3.5117536,Phenylalkyl amines,Phenylethylamines
+77571,NCc1ccc(Br)cc1,Existing,9.716836,-2.4805737,Phenylalkyl amines,Benzylamines
+457588,CNCc1cccc(Br)c1,Existing,10.591907,-3.3578072,Phenylalkyl amines,N-Alkyl benzylamines
+2734091,NCCc1ccccc1Br,Existing,9.602207,-3.7329309999999998,Phenylalkyl amines,Phenylethylamines
+533915,NCCc1ccc(Br)cc1,Existing,9.150029,-3.3342112999999998,Phenylalkyl amines,Phenylethylamines
+18509414,NCCc1cc(Br)cc(Br)c1,Existing,9.395004,-3.4292672,Phenylalkyl amines,Phenylethylamines
+66036,NCc1ccc(Cl)cc1,Existing,9.469939,-2.2158406000000004,Phenylalkyl amines,Benzylamines
+122721,CNCc1cccc(Cl)c1,Existing,10.307407000000001,-3.312679,Phenylalkyl amines,N-Alkyl benzylamines
+83117,NCCc1ccccc1Cl,Existing,9.258673,-4.17835,Phenylalkyl amines,Phenylethylamines
+67430,NCCc1ccc(Cl)cc1,Existing,9.176787,-3.4675964999999995,Phenylalkyl amines,Phenylethylamines
+15670830,NCCc1cc(Cl)cc(Cl)c1,Existing,8.872318,-3.658082,Phenylalkyl amines,Phenylethylamines
+97803,CC(N)c1ccc(Cl)cc1,Existing,9.641345,-1.467455,Phenylalkyl amines,1-Phenylethylamines
+1715226,CC(N)c1ccc(Cl)cc1,Existing,9.714867,-1.5439806999999999,Phenylalkyl amines,1-Phenylethylamines
+1550852,CC(N)c1ccc(Cl)cc1,Existing,9.595507000000001,-1.6227812,Phenylalkyl amines,1-Phenylethylamines
+66649,NCc1ccccc1F,Existing,9.682965,-3.0672762000000002,Phenylalkyl amines,Benzylamines
+67326,NCc1ccc(F)cc1,Existing,9.483665,-2.8713,Phenylalkyl amines,Benzylamines
+457577,CNCc1cccc(F)c1,Existing,10.456859,-3.3037282999999995,Phenylalkyl amines,N-Alkyl benzylamines
+643357,NCCc1ccccc1F,Existing,9.475936,-4.1227293,Phenylalkyl amines,Phenylethylamines
+533928,NCCc1cccc(F)c1,Existing,9.083524,-4.058843,Phenylalkyl amines,Phenylethylamines
+4653,NCCc1ccc(F)cc1,Existing,9.093025,-3.888242,Phenylalkyl amines,Phenylethylamines
+11052938,NCCc1c(F)c(F)c(F)c(F)c1F,Existing,9.168053,-3.971565,Phenylalkyl amines,Phenylethylamines
+69883,NCCc1ccccc1C(F)(F)F,Existing,9.36572,-3.9812663,Phenylalkyl amines,Phenylethylamines
+2737533,NCc1ccc(I)cc1,Existing,9.699377,-2.3813264,Phenylalkyl amines,Benzylamines
+75994,c1ccc(CN2CCNCC2)cc1,Existing,10.959813,-4.686644599999999,Phenylalkyl amines,Aromatic piperazines
+77801,NCCNCc1ccccc1,Existing,10.399357,-4.3179183,Phenylalkyl amines,N-Alkyl benzylamines
+2734101,NCCc1c(Cl)cccc1Cl,Potential,9.27638,-3.3373766000000002,Phenylalkyl amines,Phenylethylamines
+485400,CNCc1ccc(Br)cc1,Potential,10.497574,-3.4320157,Phenylalkyl amines,N-Alkyl benzylamines
+485432,NCc1c(Cl)cccc1Cl,Potential,9.218459,-2.439833,Phenylalkyl amines,Benzylamines
+485436,CNCc1ccc(Cl)c(Cl)c1,Potential,10.375983999999999,-3.0610712,Phenylalkyl amines,N-Alkyl benzylamines
+139381,NCCc1cccc(Cl)c1,Potential,9.448136,-3.5716085,Phenylalkyl amines,Phenylethylamines
+522360,CNCc1ccccc1Br,Potential,10.634485,-3.503431,Phenylalkyl amines,N-Alkyl benzylamines
+32893,CC(N)Cc1ccccc1,Potential,9.230955999999999,-5.3219385,Phenylalkyl amines,Amphetamines
+77960,NC(Cc1ccccc1)Cc1ccccc1,Potential,9.042808,-5.1112165,Phenylalkyl amines,Amphetamines
+8355,NCc1cccc2ccccc12,Potential,10.173092,-2.4537766,Phenylalkyl amines,Benzylamines
+6951129,COc1ccc(CC(C)N)cc1,Potential,10.259300999999999,-4.4095907,Phenylalkyl amines,Amphetamines
+21887195,CNCCc1ccccc1F,Potential,11.066303,-4.2910757,Phenylalkyl amines,N-Methyl phenylethylamines
+334072,NCc1ccccc1Br,Potential,9.981011,-3.0341582000000002,Phenylalkyl amines,Benzylamines
+200957,NCCc1ccc(OCc2ccccc2)cc1,Potential,9.9925375,-3.7669084,Phenylalkyl amines,Phenylethylamines
+1814795,CCCCCNCc1cccc(Br)c1,Potential,11.022136,-3.9030565999999998,Phenylalkyl amines,N-Alkyl benzylamines
+84352,CCNCc1ccccc1,Potential,10.273816,-3.9255983999999997,Phenylalkyl amines,N-Alkyl benzylamines
+70048,c1ccc(C(c2ccccc2)N2CCNCC2)cc1,Potential,10.965568,-4.9425826,Phenylalkyl amines,Aromatic piperazines
+76190,c1ccc(CN2CCCCC2)cc1,Potential,10.761877,-4.5755267,Phenylalkyl amines,N-Alkyl benzylamines
+211415,Cc1ccc(C)c(CCN)c1,Potential,9.262114,-3.845543,Phenylalkyl amines,Phenylethylamines
+66024,CC(C)NCc1ccccc1,Potential,10.258646,-3.8445362999999997,Phenylalkyl amines,N-Alkyl benzylamines
+84474,CNCc1cccc2ccccc12,Potential,10.533779,-2.752522,Phenylalkyl amines,N-Alkyl benzylamines
+10836,CNC(C)Cc1ccccc1,Potential,8.95318,-5.2059326,Phenylalkyl amines,Amphetamines
+8793,c1ccc(CNCCNCc2ccccc2)cc1,Potential,10.166422,-3.802264,Phenylalkyl amines,N-Alkyl benzylamines
+4771,CC(C)(N)Cc1ccccc1,Potential,9.572178,-4.5063353,Phenylalkyl amines,Amphetamines
+144047,CCc1ccc(CCN)cc1,Potential,9.012483999999999,-3.5574186,Phenylalkyl amines,Phenylethylamines
+6486733,CC(N)CCc1ccccc1Cl,Potential,10.724767,-4.5499315000000005,Phenylalkyl amines,Phenylpropylamines
+68315,NCc1ccc(CN)cc1,Potential,9.330833,-2.367085,Phenylalkyl amines,Benzylamines
+2794252,NCc1ccc2ccc3cccc4ccc1c2c34,Potential,10.139171000000001,-2.832537,Phenylalkyl amines,Benzylamines
+15133,NCc1cccc(CN)c1,Potential,9.338166000000001,-2.454308,Phenylalkyl amines,Benzylamines
+205668,CC(N)Cc1ccc(Br)cc1,Potential,9.672427,-4.9899654,Phenylalkyl amines,Amphetamines
+217958,NCCc1ccc(Cl)c(Cl)c1,Potential,9.213847999999999,-3.6612197999999996,Phenylalkyl amines,Phenylethylamines
+457587,NCc1cccc(Br)c1,Potential,9.987642999999998,-2.7817752000000002,Phenylalkyl amines,Benzylamines
+457602,NCc1cc(Cl)cc(Cl)c1,Potential,9.505098,-2.3389325,Phenylalkyl amines,Benzylamines
+11157,NNCc1ccccc1,Potential,10.233555,-4.126883,Phenylalkyl amines,Benzylamines
+2771858,CC(N)c1ccc(Cl)cc1Cl,Potential,10.075327,-1.8818288,Phenylalkyl amines,1-Phenylethylamines
+3007,CC(N)Cc1ccccc1,Potential,9.169023,-5.2309837,Phenylalkyl amines,Amphetamines
+99277,C#CCNCc1ccccc1,Potential,10.339935,-4.052198000000001,Phenylalkyl amines,N-Alkyl benzylamines
+31721,COc1ccc(CC(C)N)cc1,Potential,10.054883,-4.4576435,Phenylalkyl amines,Amphetamines
+19493,NC1CC1c1ccccc1,Potential,10.162652,-4.9060955,Phenylalkyl amines,2-Phenylpropylamines
+91175,CC(N)c1ccc(Br)cc1,Potential,9.538998,-1.6589477,Phenylalkyl amines,1-Phenylethylamines
+3127,CC(N)Cc1ccc(Cl)cc1,Potential,9.588442,-4.8151097,Phenylalkyl amines,Amphetamines
+18367556,CNCCc1ccc(Br)cc1,Potential,10.739413,-4.101097,Phenylalkyl amines,N-Methyl phenylethylamines
+66648,NCc1ccccc1Cl,Potential,9.428821000000001,-2.5393374,Phenylalkyl amines,Benzylamines
+74850,CCCNCc1ccccc1,Potential,10.569243,-3.9260857000000002,Phenylalkyl amines,N-Alkyl benzylamines
+74866,COc1cccc(CCN)c1,Potential,9.807217,-3.8249372999999998,Phenylalkyl amines,Phenylethylamines
+11398,CC(CN)c1ccccc1,Potential,9.101564999999999,-4.4040947,Phenylalkyl amines,2-Phenylpropylamines
+7021736,NCCc1cccc(Br)c1,Potential,9.790561,-3.4279468,Phenylalkyl amines,Phenylethylamines
+1206,CNC(C)Cc1ccccc1,Potential,9.025324000000001,-5.2438400000000005,Phenylalkyl amines,Amphetamines
+66754,CNCc1ccccc1Cl,Potential,10.446528,-3.2548575,Phenylalkyl amines,N-Alkyl benzylamines
+263366,NCc1ccccc1-c1ccccc1,Potential,9.670204,-3.1378775,Phenylalkyl amines,Benzylamines
+10583272,CNCCc1cccc(Cl)c1,Potential,11.076594,-3.9256813999999998,Phenylalkyl amines,N-Methyl phenylethylamines
+11085034,NCc1c2ccccc2cc2ccccc12,Potential,10.291908,-2.6113417,Phenylalkyl amines,Benzylamines
+11503,CNCCc1ccccc1,Potential,10.439308,-4.3530154,Phenylalkyl amines,N-Methyl phenylethylamines
+66853,NCc1cccc(F)c1,Potential,9.892388,-3.0233603,Phenylalkyl amines,Benzylamines
+2760009,CN1CCNC(c2ccccc2)C1,Potential,11.41344,-4.456858,Phenylalkyl amines,Aromatic piperazines
+185717,Clc1ccc(C2=CCNCC2)cc1,Potential,11.229066,-4.432083,Phenylalkyl amines,Phenylpropylamines
+5530,NC1CC1c1ccccc1,Potential,10.372442,-4.8644967,Phenylalkyl amines,2-Phenylpropylamines
+1485,NCc1ccc(Cl)cc1Cl,Potential,9.702899,-2.3162906000000003,Phenylalkyl amines,Benzylamines
+26070,NC1CC1c1ccccc1,Potential,10.305192,-4.778020400000001,Phenylalkyl amines,2-Phenylpropylamines
+7656,c1ccc(CNCc2ccccc2)cc1,Potential,10.183167,-3.5613384,Phenylalkyl amines,N-Alkyl benzylamines
+7669,CNCc1ccccc1,Potential,10.351158,-3.4128722999999996,Phenylalkyl amines,N-Alkyl benzylamines
+2063868,Cc1ccccc1CCN,Potential,9.3819475,-3.7372377,Phenylalkyl amines,Phenylethylamines
+1988106,NCCc1ccc(C(F)(F)F)cc1,Potential,9.050008,-3.9728765,Phenylalkyl amines,Phenylethylamines
+65055,c1ccc(CCNCc2ccccc2)cc1,Potential,10.154386500000001,-4.0187,Phenylalkyl amines,N-Alkyl benzylamines
+9815618,CC(N)Cc1cccc(C(F)(F)F)c1,Potential,10.397452000000001,-4.5730580000000005,Phenylalkyl amines,Amphetamines
+1608,NCc1ccc(Cl)c(Cl)c1,Potential,9.540807000000001,-2.6875079,Phenylalkyl amines,Benzylamines
+3675,NNCCc1ccccc1,Potential,9.683114,-3.925529,Phenylalkyl amines,Phenylethylamines
+75452,COc1ccc(CN)cc1,Potential,9.840466000000001,-2.570732,Phenylalkyl amines,Benzylamines
+5826,CC(N)Cc1ccccc1,Potential,9.235005000000001,-5.272969,Phenylalkyl amines,Amphetamines
+75467,CCCCNCc1ccccc1,Potential,10.543471,-3.9523553999999996,Phenylalkyl amines,N-Alkyl benzylamines
+36604,CNC(C)Cc1ccccc1,Potential,9.110468,-5.303636,Phenylalkyl amines,Amphetamines
+6485772,NCCCc1ccc(Cl)cc1,Potential,9.792074000000001,-4.6142106,Phenylalkyl amines,Phenylpropylamines
+10007,CC(C)(N)Cc1ccc(Cl)cc1,Potential,9.743801,-4.190843,Phenylalkyl amines,Amphetamines
+104223,NCCc1cccc(C(F)(F)F)c1,Potential,9.839974,-4.035814,Phenylalkyl amines,Phenylethylamines
+6367052,NC(N)c1ccccc1,Potential,10.186496,-4.778815,Phenylalkyl amines,Benzylamines
+79698,NCCC(c1ccccc1)c1ccccc1,Potential,10.056154,-4.8303804,Phenylalkyl amines,Phenylpropylamines
+796534,c1ccc(CCCN2CCNCC2)cc1,Potential,11.175262,-4.461523000000001,Phenylalkyl amines,Aromatic piperazines
+77802,NCc1cccc(Cl)c1,Potential,9.555844,-2.5649797999999997,Phenylalkyl amines,Benzylamines

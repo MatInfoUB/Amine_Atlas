@@ -17,6 +17,7 @@ def hit_ratio(row):
 
 
 if __name__ == "__main__":
+
     df_amines = pd.read_csv("processed_data/final_db_with_two_level_classifications.csv")
     df_assays = pd.read_csv("input_data/selected_bioassays_info_preprocessed.csv")
     assay_list = df_assays['AID'].to_list()
@@ -43,3 +44,15 @@ if __name__ == "__main__":
                      color_continuous_scale=px.colors.sequential.Bluered, opacity=0.7, width=1000, height=600)
     plot(fig, filename="output_html/fig6_amine_atlas_with_toxicity_data.html")
     df_hit_ratio.to_csv("output_csv/amine_atlas_with_toxicity_data.csv", index=False)
+
+df_vap = pd.read_csv('input_data/vapor_office.csv')
+
+df_vap = df_vap[~df_vap['volatile'].isin([-1])]
+print(df_vap)
+df_vap['volatile_lg'] = np.log10(df_vap['volatile'])
+
+fig = px.scatter(df_vap, x='UMAP-1', y='UMAP-2', color='volatile_lg', template='plotly_white',
+                 hover_data=["CID", 'RDKIT_SMILES', 'Type', 'Class', 'Subclass'],
+                 color_continuous_scale=px.colors.sequential.Bluered, opacity=0.7, width=1000, height=600)
+plot(fig, filename="output_html/fig21_amine_atlas_with_toxicity_data.html")
+
