@@ -13,7 +13,7 @@ mhfp_encoder = MHFPEncoder()
 mfhps = [mhfp_encoder.encode_mol(mol) for mol in mols]
 df_mfhps = pd.DataFrame(mfhps)
 df_concat = pd.concat([df, df_mfhps], axis=1)
-df_concat.to_csv("processed_data/final_db_with_MHFP.csv", index=False)
+df_concat.to_csv("processed_data/final_db_with_MHFP_0309.csv", index=False)
 
 
 
