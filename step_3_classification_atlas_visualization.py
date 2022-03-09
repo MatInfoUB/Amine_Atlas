@@ -59,16 +59,16 @@ def second_class_phenylalkyl(row):
 if __name__ == "__main__":
 
     # for UMAP, please comment for t-SNE
-    # version = "0309_UMAP_50_025"
-    # df_scores = pd.read_csv("processed_data/final_db_with_UMAP.csv")
-    # x_axis = 'UMAP-1'
-    # y_axis = 'UMAP-2'
+    version = "UMAP_"+ "100_025_0309"
+    df_scores = pd.read_csv("processed_data/final_db_with_"+version+".csv")
+    x_axis = 'UMAP-1'
+    y_axis = 'UMAP-2'
     #
     # for t-SNE, please comment for UMAP
-    df_scores = pd.read_csv("processed_data/final_db_with_TSNE_30_0309.csv")
-    x_axis = 'TSNE-1'
-    y_axis = 'TSNE-2'
-    version = "0309_TSNE_30"
+    # df_scores = pd.read_csv("processed_data/final_db_with_TSNE_70_random_0309.csv")
+    # x_axis = 'TSNE-1'
+    # y_axis = 'TSNE-2'
+    # version = "0309_TSNE_70_random"
 
     # Find RDKIT fragments
     df_scores_fingers = find_rdkit_fragments(df_scores.copy())
