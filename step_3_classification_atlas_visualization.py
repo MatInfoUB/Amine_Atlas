@@ -59,7 +59,7 @@ def second_class_phenylalkyl(row):
 if __name__ == "__main__":
 
     # for UMAP, please comment for t-SNE
-    version = "UMAP_"+ "50_01_0309"
+    version = "UMAP_"+ "15_025_0310"
     df_scores = pd.read_csv("processed_data/final_db_with_"+version+".csv")
     x_axis = 'UMAP-1'
     y_axis = 'UMAP-2'
