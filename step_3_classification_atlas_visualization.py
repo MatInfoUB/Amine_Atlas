@@ -58,17 +58,17 @@ def second_class_phenylalkyl(row):
 
 if __name__ == "__main__":
 
-    # for UMAP, please comment for t-SNE
-    version = "UMAP_"+ "15_025_0310"
+    # To do UMAP, please comment the t-SNE block below
+    version = "UMAP_"+ "50_025_0309"
     df_scores = pd.read_csv("processed_data/final_db_with_"+version+".csv")
     x_axis = 'UMAP-1'
     y_axis = 'UMAP-2'
     #
-    # for t-SNE, please comment for UMAP
-    # df_scores = pd.read_csv("processed_data/final_db_with_TSNE_70_random_0309.csv")
+    # To do t-SNE, please comment the UMAP block above and uncomment this block
     # x_axis = 'TSNE-1'
     # y_axis = 'TSNE-2'
-    # version = "0309_TSNE_70_random"
+    # version = "0309_TSNE_70_pca"
+    # df_scores = pd.read_csv("processed_data/final_db_with_"+version+".csv")
 
     # Find RDKIT fragments
     df_scores_fingers = find_rdkit_fragments(df_scores.copy())
@@ -79,8 +79,9 @@ if __name__ == "__main__":
     # main class classification
     fig = px.scatter(df_scores_fingers, x=x_axis, y=y_axis, color='Class', template='plotly_white',
                      hover_data=["CID",'RDKIT_SMILES'], width=1000, height=600)
-    plot(fig, filename="output_html/fig2_amine_atlas_main_classes_"+version+".html")
-    # fig.write_image("output_html/fig2.eps")    # static img output only workable in Mac or Linux
+    # plot(fig, filename="output_html/fig2_amine_atlas_main_classes_"+version+".html")
+    # output to eps
+    fig.write_image("output_eps/fig2.eps")    # static img output only workable in Mac or Linux
 
     # Second class: heterocyclic aromatics
     df_hetero = df_scores_fingers[df_scores_fingers['Class'] == 'Heteroaromatic amines']
@@ -88,7 +89,9 @@ if __name__ == "__main__":
     df_hetero_groups['Subclass'] = df_hetero_groups.apply(second_class_heterocyclic, axis=1)
     fig = px.scatter(df_hetero_groups, x=x_axis, y=y_axis, color='Subclass', template='plotly_white',
                      hover_data=["CID",'RDKIT_SMILES'], width=1000, height=600)
-    plot(fig, filename="output_html/fig3_amine_atlas_in_subclass_hetero_"+version+".html")
+    # plot(fig, filename="output_html/fig3_amine_atlas_in_subclass_hetero_"+version+".html")
+    # fig.write_image("output_eps/fig3.eps")  # static img output only workable in Mac or Linux
+    df_filtered_hetero = df_hetero_groups[['CID', 'RDKIT_SMILES', 'Type', x_axis, y_axis, 'Class', 'Subclass']]
 
     # Second class: phenylalkyl amines
     df_phenylalkyl = df_scores_fingers[df_scores_fingers['Class'] == 'Phenylalkyl amines']
@@ -96,7 +99,9 @@ if __name__ == "__main__":
     df_phenylalkyl_groups['Subclass'] = df_phenylalkyl_groups.apply(second_class_phenylalkyl, axis=1)
     fig = px.scatter(df_phenylalkyl_groups, x=x_axis, y=y_axis, color='Subclass', template='plotly_white',
                      hover_data=["CID",'RDKIT_SMILES'], width=1000, height=600)
-    plot(fig, filename="output_html/fig4_amine_atlas_in_subclass_phenylalkyl_"+version+".html")
+    # plot(fig, filename="output_html/fig4_amine_atlas_in_subclass_phenylalkyl_"+version+".html")
+    # fig.write_image("output_eps/fig4.eps")  # static img output only workable in Mac or Linux
+    df_filtered_phenylalkyl = df_phenylalkyl_groups[['CID', 'RDKIT_SMILES', 'Type', x_axis, y_axis, 'Class', 'Subclass']]
 
     # second class: aliphatic
     df_aliphatic = df_scores_fingers[df_scores_fingers['Class'] == 'Aliphatic amines']
@@ -106,8 +111,17 @@ if __name__ == "__main__":
     df_aliphatic_groups = pd.merge(df_aliphatic, df_aliphatic_classification, how="left", on="CID")
     fig = px.scatter(df_aliphatic_groups, x=x_axis, y=y_axis, color='Subclass', template='plotly_white',
                      hover_data=["CID", 'RDKIT_SMILES'], width=1000, height=600)
-    plot(fig, filename="output_html/fig5_amine_atlas_in_subclass_aliphatic_"+version+".html")
+    # plot(fig, filename="output_html/fig5_amine_atlas_in_subclass_aliphatic_"+version+".html")
+    # fig.write_image("output_eps/fig5.eps")  # static img output only workable in Mac or Linux
+    df_filtered_aliphatic = df_aliphatic_groups[['CID', 'RDKIT_SMILES', 'Type', x_axis, y_axis, 'Class', 'Subclass']]
 
+    # second class: aniline
+    df_aniline = df_scores_fingers[df_scores_fingers['Class'] == 'Anilines']
+    df_aniline['Subclass'] = 'Anilines'
+    df_filtered_aniline = df_aniline[['CID', 'RDKIT_SMILES', 'Type', x_axis, y_axis, 'Class', 'Subclass']]
+
+    df_new_summary = pd.concat([df_filtered_hetero, df_filtered_phenylalkyl, df_filtered_aniline, df_filtered_aliphatic])
+    df_new_summary.to_csv("processed_data/final_db_with_two_level_classifications"+version+".csv", index=False)
 
 
 
