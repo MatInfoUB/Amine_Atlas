@@ -10,6 +10,34 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/input_data/selected_vapor_pressure.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/output_csv/amine_atlas_with_toxicity_data_0310.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/processed_data/final_db_with_two_level_classifications.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/processed_data/final_db_with_two_level_classificationsUMAP_50_025_0309.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\database_curation\data\expanded_set_not_manually_processed.csv">
           <value>
             <Attribute>
