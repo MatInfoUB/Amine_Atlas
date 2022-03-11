@@ -45,6 +45,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\input_data\final_perovskite_amines_database.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\processed_data\final_db_with_two_level_classificationsUMAP_50_025_0309.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

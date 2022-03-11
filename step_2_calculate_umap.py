@@ -5,22 +5,21 @@ from umap import UMAP
 from sklearn.manifold import TSNE
 import plotly.express as px
 
-df = pd.read_csv("processed_data/final_db_with_MHFP_0309.csv")
+df = pd.read_csv("processed_data/MHFP_0311.csv")
 df['RDKIT_SMILES'] = df['SMILES'].map(lambda x: rdkit_smiles_from_input_smiles(x))
 df = df.drop(columns=['SMILES']).set_index(["CID", "RDKIT_SMILES", "Type"])
 
 scaler = StandardScaler()
 np_scaled = scaler.fit_transform(df)
 
-# umap_model = UMAP(n_neighbors=50, min_dist=0.25, random_state=42)  standard condition
-umap_model = UMAP(n_neighbors=15, min_dist=0.25, random_state=42)
-version = "15_025_0310"
+umap_model = UMAP(n_neighbors=50, min_dist=0.25, random_state=42)
+version = "0311"
 np_umap_result = umap_model.fit_transform(np_scaled)
 df_umap_result = pd.DataFrame(np_umap_result, columns=['UMAP-1', 'UMAP-2'])
 df = df.reset_index()
 df = df[['CID', 'RDKIT_SMILES', 'Type']]
 df_concat = pd.concat([df, df_umap_result], axis=1)
-df_concat.to_csv("processed_data/final_db_with_UMAP_"+version+".csv", index=False)
+df_concat.to_csv("processed_data/UMAP_"+version+".csv", index=False)
 
 
 # tsne = TSNE(n_components=2, random_state=42, init='pca', perplexity=30, n_iter=1000)
