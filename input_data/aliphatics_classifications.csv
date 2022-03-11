@@ -1,0 +1,149 @@
+CID,RDKIT_SMILES,Type,Class,Subclass
+5325951,CC(N)C1CCCCC1,Potential,Aliphatic amines (cyclic),Cycloalkyl amines
+10997046,CC(N)C1CCCCC1,Potential,Aliphatic amines (cyclic),Cycloalkyl amines
+115665,CC(N)CC1CCCCC1,Potential,Aliphatic amines (cyclic),Cycloalkyl amines
+129866010,CC1CC(ON)OC1C,Existing,Aliphatic amines (cyclic),Cycloalkyl amines
+69828,NC1CC1,Existing,Aliphatic amines (cyclic),Cycloalkyl amines
+3847030,NC1CCC(F)(F)CC1,Existing,Aliphatic amines (cyclic),Cycloalkyl amines
+18374,NC1CCC(N)CC1,Potential,Aliphatic amines (cyclic),Cycloalkyl amines
+75645,NC1CCC1,Existing,Aliphatic amines (cyclic),Cycloalkyl amines
+2906,NC1CCCC1,Existing,Aliphatic amines (cyclic),Cycloalkyl amines
+7965,NC1CCCCC1,Existing,Aliphatic amines (cyclic),Cycloalkyl amines
+4610,NC1CCCCC1N,Existing,Aliphatic amines (cyclic),Cycloalkyl amines
+2899,NC1CCCCCC1,Existing,Aliphatic amines (cyclic),Cycloalkyl amines
+2903,NC1CCCCCCC1,Existing,Aliphatic amines (cyclic),Cycloalkyl amines
+2897,NC1CCCCCCCCCCC1,Potential,Aliphatic amines (cyclic),Cycloalkyl amines
+419223,NC1CCOCC1,Existing,Aliphatic amines (cyclic),Cycloalkyl amines
+17354,NCC1CCC(CN)CC1,Existing,Aliphatic amines (cyclic),Cycloalkyl amines
+17406,NCC1CCCC(CN)C1,Potential,Aliphatic amines (cyclic),Cycloalkyl amines
+76688,NCC1CCCCC1,Existing,Aliphatic amines (cyclic),Cycloalkyl amines
+90865,NCC1CCCCN1,Existing,Aliphatic amines (cyclic),Cycloalkyl amines
+76938,NCCC1=CCCCC1,Existing,Aliphatic amines (cyclic),Cycloalkyl amines
+20509,NCCC1CCCCC1,Existing,Aliphatic amines (cyclic),Cycloalkyl amines
+66059,C1=CCNC1,Existing,Aliphatic amines (cyclic),Saturated cyclic amines
+8119,C1CCCNCC1,Potential,Aliphatic amines (cyclic),Saturated cyclic amines
+8082,C1CCNCC1,Existing,Aliphatic amines (cyclic),Saturated cyclic amines
+10422,C1CNC1,Existing,Aliphatic amines (cyclic),Saturated cyclic amines
+79081,CC1CCCNC1,Potential,Aliphatic amines (cyclic),Saturated cyclic amines
+69381,CC1CCNCC1,Potential,Aliphatic amines (cyclic),Saturated cyclic amines
+118259,CC1CNCC(C)C1,Potential,Aliphatic amines (cyclic),Saturated cyclic amines
+76704,CCC1CCNCC1,Potential,Aliphatic amines (cyclic),Saturated cyclic amines
+98094,CCN1CCCC(N)C1,Potential,Aliphatic amines (cyclic),Saturated cyclic amines
+2758350,FC1(F)CCCNC1,Potential,Aliphatic amines (cyclic),Saturated cyclic amines
+2758352,FC1(F)CCNCC1,Existing,Aliphatic amines (cyclic),Saturated cyclic amines
+2759157,FC1CCCNC1,Potential,Aliphatic amines (cyclic),Saturated cyclic amines
+52911246,FC1CCCNCC1,Existing,Aliphatic amines (cyclic),Saturated cyclic amines
+2759159,FC1CCNCC1,Potential,Aliphatic amines (cyclic),Saturated cyclic amines
+164401,NC1CCNC1,Existing,Aliphatic amines (cyclic),Saturated cyclic amines
+90880,NCC1CCCNC1,Existing,Aliphatic amines (cyclic),Saturated cyclic amines
+23527,NCC1CCNCC1,Existing,Aliphatic amines (cyclic),Saturated cyclic amines
+6484144,NCCCCN1CCCCC1,Potential,Aliphatic amines (cyclic),Saturated cyclic amines
+33944,NCCN1CCCCC1,Existing,Aliphatic amines (cyclic),Saturated cyclic amines
+4837,C1CNCCN1,Existing,Aliphatic amines (cyclic),Piperazines
+2737112,CCCCCN1CCNCC1,Potential,Aliphatic amines (cyclic),Piperazines
+776622,CCN1CCN(CCN)CC1,Potential,Aliphatic amines (cyclic),Piperazines
+79196,CCN1CCNCC1,Existing,Aliphatic amines (cyclic),Piperazines
+2736229,CN(C)CCN1CCNCC1,Potential,Aliphatic amines (cyclic),Piperazines
+53167,CN1CCNCC1,Existing,Aliphatic amines (cyclic),Piperazines
+8795,NCCN1CCNCC1,Existing,Aliphatic amines (cyclic),Piperazines
+193756,C[N+](C)(C)CCN,Existing,Aliphatic amines (acyclic),Branched diamines
+85862,CC(CN)CCCN,Existing,Aliphatic amines (acyclic),Branched diamines
+6567,CC(N)CN,Potential,Aliphatic amines (acyclic),Branched diamines
+90250,CCCNCCCN,Potential,Aliphatic amines (acyclic),Branched diamines
+60993,CCN(CC)CCN,Potential,Aliphatic amines (acyclic),Branched diamines
+82727,CCNCCCN,Potential,Aliphatic amines (acyclic),Branched diamines
+82334,CCNCCCNCC,Potential,Aliphatic amines (acyclic),Branched diamines
+66071,CCNCCN,Potential,Aliphatic amines (acyclic),Branched diamines
+67104,CCNCCNC,Potential,Aliphatic amines (acyclic),Branched diamines
+7993,CN(C)CCCN,Potential,Aliphatic amines (acyclic),Branched diamines
+66053,CN(C)CCN,Existing,Aliphatic amines (acyclic),Branched diamines
+80511,CNCCCN,Existing,Aliphatic amines (acyclic),Branched diamines
+66978,CNCCCNC,Existing,Aliphatic amines (acyclic),Branched diamines
+8014,CNCCN,Existing,Aliphatic amines (acyclic),Branched diamines
+67338,CNCCN(C)C,Potential,Aliphatic amines (acyclic),Branched diamines
+119716,CC(C)CCCCCCN,Potential,Aliphatic amines (acyclic),Branched monoamines
+219608,CC(C)CCCN,Potential,Aliphatic amines (acyclic),Branched monoamines
+7894,CC(C)CCN,Potential,Aliphatic amines (acyclic),Branched monoamines
+6558,CC(C)CN,Existing,Aliphatic amines (acyclic),Branched monoamines
+7283,CCC(C)CN,Potential,Aliphatic amines (acyclic),Branched monoamines
+24874,CCC(C)N,Existing,Aliphatic amines (acyclic),Branched monoamines
+6713753,CCC(C)N,Potential,Aliphatic amines (acyclic),Branched monoamines
+12019,CCC(N)CC,Potential,Aliphatic amines (acyclic),Branched monoamines
+99014,CCCC(C)CN,Potential,Aliphatic amines (acyclic),Branched monoamines
+12246,CCCC(C)N,Potential,Aliphatic amines (acyclic),Branched monoamines
+38665,CCCC(N)CCC,Potential,Aliphatic amines (acyclic),Branched monoamines
+7719,CCCCC(CC)CN,Existing,Aliphatic amines (acyclic),Branched monoamines
+5603,CCCCCC(C)N,Existing,Aliphatic amines (acyclic),Branched monoamines
+12735,CCCCCCC(C)N,Potential,Aliphatic amines (acyclic),Branched monoamines
+12315,CCCNC,Potential,Aliphatic amines (acyclic),Branched monoamines
+4,CC(O)CN,Potential,Aliphatic amines (acyclic),Functionalized amines
+5142,CSC(=N)N,Existing,Aliphatic amines (acyclic),Functionalized amines
+9773,NCC(F)(F)F,Existing,Aliphatic amines (acyclic),Functionalized amines
+136274,NCC(F)F,Existing,Aliphatic amines (acyclic),Functionalized amines
+61157,NCC(O)CN,Existing,Aliphatic amines (acyclic),Functionalized amines
+7851,NCCBr,Existing,Aliphatic amines (acyclic),Functionalized amines
+239,NCCC(=O)O,Existing,Aliphatic amines (acyclic),Functionalized amines
+10001,NCCC(F)(F)F,Potential,Aliphatic amines (acyclic),Functionalized amines
+119,NCCCC(=O)O,Existing,Aliphatic amines (acyclic),Functionalized amines
+138,NCCCCC(=O)O,Existing,Aliphatic amines (acyclic),Functionalized amines
+13406458,NCCCCCCI,Existing,Aliphatic amines (acyclic),Functionalized amines
+19960,NCCCCCCO,Existing,Aliphatic amines (acyclic),Functionalized amines
+86056440,NCCCCCI,Existing,Aliphatic amines (acyclic),Functionalized amines
+75634,NCCCCCO,Existing,Aliphatic amines (acyclic),Functionalized amines
+21440816,NCCCCI,Existing,Aliphatic amines (acyclic),Functionalized amines
+25868,NCCCCO,Existing,Aliphatic amines (acyclic),Functionalized amines
+21194665,NCCCI,Existing,Aliphatic amines (acyclic),Functionalized amines
+13369,NCCCl,Existing,Aliphatic amines (acyclic),Functionalized amines
+9086,NCCCO,Existing,Aliphatic amines (acyclic),Functionalized amines
+9996,NCCF,Existing,Aliphatic amines (acyclic),Functionalized amines
+13306451,NCCI,Existing,Aliphatic amines (acyclic),Functionalized amines
+700,NCCO,Existing,Aliphatic amines (acyclic),Functionalized amines
+70248,NCCOCCOCCN,Existing,Aliphatic amines (acyclic),Functionalized amines
+2915,NCCSSCCN,Existing,Aliphatic amines (acyclic),Functionalized amines
+787,NO,Existing,Aliphatic amines (acyclic),Functionalized amines
+17727,NCCCCCCCCCCCCN,Existing,Aliphatic amines (acyclic),Linear diamines
+69966,NCCCCCCCCCCCN,Potential,Aliphatic amines (acyclic),Linear diamines
+1317,NCCCCCCCCCCN,Existing,Aliphatic amines (acyclic),Linear diamines
+69534,NCCCCCCCCCN,Existing,Aliphatic amines (acyclic),Linear diamines
+24250,NCCCCCCCCN,Existing,Aliphatic amines (acyclic),Linear diamines
+69533,NCCCCCCCN,Existing,Aliphatic amines (acyclic),Linear diamines
+16402,NCCCCCCN,Existing,Aliphatic amines (acyclic),Linear diamines
+273,NCCCCCN,Existing,Aliphatic amines (acyclic),Linear diamines
+1045,NCCCCN,Existing,Aliphatic amines (acyclic),Linear diamines
+428,NCCCN,Existing,Aliphatic amines (acyclic),Linear diamines
+15793,CCCCCCCCCCCCCCCCCCN,Existing,Aliphatic amines (acyclic),Linear monoamines
+8926,CCCCCCCCCCCCCCCCN,Existing,Aliphatic amines (acyclic),Linear monoamines
+17386,CCCCCCCCCCCCCCCN,Potential,Aliphatic amines (acyclic),Linear monoamines
+16217,CCCCCCCCCCCCCCN,Existing,Aliphatic amines (acyclic),Linear monoamines
+40761,CCCCCCCCCCCCCN,Potential,Aliphatic amines (acyclic),Linear monoamines
+13583,CCCCCCCCCCCCN,Existing,Aliphatic amines (acyclic),Linear monoamines
+81742,CCCCCCCCCCCN,Potential,Aliphatic amines (acyclic),Linear monoamines
+8916,CCCCCCCCCCN,Existing,Aliphatic amines (acyclic),Linear monoamines
+16215,CCCCCCCCCN,Existing,Aliphatic amines (acyclic),Linear monoamines
+8143,CCCCCCCCN,Existing,Aliphatic amines (acyclic),Linear monoamines
+8127,CCCCCCCN,Existing,Aliphatic amines (acyclic),Linear monoamines
+8102,CCCCCCN,Existing,Aliphatic amines (acyclic),Linear monoamines
+8060,CCCCCN,Existing,Aliphatic amines (acyclic),Linear monoamines
+8007,CCCCN,Existing,Aliphatic amines (acyclic),Linear monoamines
+4091,CN(C)C(=N)N=C(N)N,Existing,Aliphatic amines (acyclic),Multiple amines (N>3)
+113994,N=C(N)SCCCN,Potential,Aliphatic amines (acyclic),Multiple amines (N>3)
+2039,N=C(N)SCCN,Existing,Aliphatic amines (acyclic),Multiple amines (N>3)
+67171,CC(=N)N,Existing,Aliphatic amines (acyclic),Short amines (heavy atoms < 5)
+6363,CC(C)N,Existing,Aliphatic amines (acyclic),Short amines (heavy atoms < 5)
+7852,CCCN,Existing,Aliphatic amines (acyclic),Short amines (heavy atoms < 5)
+6341,CCN,Existing,Aliphatic amines (acyclic),Short amines (heavy atoms < 5)
+6329,CN,Existing,Aliphatic amines (acyclic),Short amines (heavy atoms < 5)
+1146,CN(C)C,Existing,Aliphatic amines (acyclic),Short amines (heavy atoms < 5)
+674,CNC,Existing,Aliphatic amines (acyclic),Short amines (heavy atoms < 5)
+6061,CNN,Existing,Aliphatic amines (acyclic),Short amines (heavy atoms < 5)
+222,N,Existing,Aliphatic amines (acyclic),Short amines (heavy atoms < 5)
+3520,N=C(N)N,Existing,Aliphatic amines (acyclic),Short amines (heavy atoms < 5)
+68047,N=CN,Existing,Aliphatic amines (acyclic),Short amines (heavy atoms < 5)
+9321,NN,Existing,Aliphatic amines (acyclic),Short amines (heavy atoms < 5)
+3301,NCCN,Existing,Aliphatic amines (acyclic),Short amines (heavy atoms < 5)
+10034574,C#CCCN,Existing,Aliphatic amines (acyclic),Functionalized amines
+7853,C=CCN,Existing,Aliphatic amines (acyclic),Functionalized amines
+31279,C=CCNCC=C,Potential,Aliphatic amines (acyclic),Functionalized amines
+13756235,CC#CCCN,Potential,Aliphatic amines (acyclic),Functionalized amines
+155569865,CCCCC#CC#CCCN,Existing,Aliphatic amines (acyclic),Functionalized amines
+1647,N#CCCN,Existing,Aliphatic amines (acyclic),Functionalized amines

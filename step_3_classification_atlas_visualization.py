@@ -81,7 +81,7 @@ if __name__ == "__main__":
                      hover_data=["CID",'RDKIT_SMILES'], width=1000, height=600)
     plot(fig, filename="output_html/fig2_amine_atlas_main_classes_"+version+".html")
     # output to eps
-    fig.write_image("output_eps/fig2_"+version+".eps")    # static img output only workable in Mac or Linux
+    # fig.write_image("output_eps/fig2_"+version+".eps")    # static img output only workable in Mac or Linux
 
     # Second class: heterocyclic aromatics
     df_hetero = df_scores_fingers[df_scores_fingers['Class'] == 'Heteroaromatic amines']
@@ -90,7 +90,7 @@ if __name__ == "__main__":
     fig = px.scatter(df_hetero_groups, x=x_axis, y=y_axis, color='Subclass', template='plotly_white',
                      hover_data=["CID",'RDKIT_SMILES'], width=1000, height=600)
     plot(fig, filename="output_html/fig3_amine_atlas_in_subclass_hetero_"+version+".html")
-    fig.write_image("output_eps/fig3_"+version+".eps")  # static img output only workable in Mac or Linux
+    # fig.write_image("output_eps/fig3_"+version+".eps")  # static img output only workable in Mac or Linux
     df_filtered_hetero = df_hetero_groups[['CID', 'RDKIT_SMILES', 'Type', x_axis, y_axis, 'Class', 'Subclass']]
 
     # Second class: phenylalkyl amines
@@ -100,19 +100,19 @@ if __name__ == "__main__":
     fig = px.scatter(df_phenylalkyl_groups, x=x_axis, y=y_axis, color='Subclass', template='plotly_white',
                      hover_data=["CID",'RDKIT_SMILES'], width=1000, height=600)
     plot(fig, filename="output_html/fig4_amine_atlas_in_subclass_phenylalkyl_"+version+".html")
-    fig.write_image("output_eps/fig4_"+version+".eps")  # static img output only workable in Mac or Linux
+    # fig.write_image("output_eps/fig4_"+version+".eps")  # static img output only workable in Mac or Linux
     df_filtered_phenylalkyl = df_phenylalkyl_groups[['CID', 'RDKIT_SMILES', 'Type', x_axis, y_axis, 'Class', 'Subclass']]
 
     # second class: aliphatic
     df_aliphatic = df_scores_fingers[df_scores_fingers['Class'] == 'Aliphatic amines']
     print(df_aliphatic.head())
-    df_aliphatic_classification = pd.read_csv("input_data/subclass_aliphatics_manual_classification_new.csv", usecols=['CID', 'Subclass'])
+    df_aliphatic_classification = pd.read_csv("input_data/aliphatics_classifications.csv", usecols=['CID', 'Subclass'])
     print(df_aliphatic_classification.head())
     df_aliphatic_groups = pd.merge(df_aliphatic, df_aliphatic_classification, how="left", on="CID")
     fig = px.scatter(df_aliphatic_groups, x=x_axis, y=y_axis, color='Subclass', template='plotly_white',
                      hover_data=["CID", 'RDKIT_SMILES'], width=1000, height=600)
     plot(fig, filename="output_html/fig5_amine_atlas_in_subclass_aliphatic_"+version+".html")
-    fig.write_image("output_eps/fig5_"+version+".eps")  # static img output only workable in Mac or Linux
+    # fig.write_image("output_eps/fig5_"+version+".eps")  # static img output only workable in Mac or Linux
     df_filtered_aliphatic = df_aliphatic_groups[['CID', 'RDKIT_SMILES', 'Type', x_axis, y_axis, 'Class', 'Subclass']]
 
     # second class: aniline

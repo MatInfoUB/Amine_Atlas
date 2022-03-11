@@ -52,6 +52,55 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\input_data\selected_bioassays_info_preprocessed.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\input_data\subclass_aliphatics_manual_classification.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\input_data\subclass_aliphatics_manual_classification_new.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\output_csv\amine_atlas_w_toxicity_UMAP_0311.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\processed_data\db_with_two_level_class_UMAP_0311.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\processed_data\final_db_with_MHFP.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\processed_data\final_db_with_two_level_classifications.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\processed_data\final_db_with_two_level_classificationsUMAP_50_025_0309.csv">
           <value>
             <Attribute>
