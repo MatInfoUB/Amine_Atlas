@@ -4,7 +4,6 @@ from mhfp.encoder import MHFPEncoder
 
 
 # calculate mhfp descriptors
-# df = pd.read_csv("input_data/final_perovskite_amines_database.csv", usecols=['CID', 'SMILES', 'Type'])
 df = pd.read_csv("input_data/curated_db_raw_0311.csv", usecols=['CID', 'SMILES', 'Type'])
 smiles_list = df['SMILES'].tolist()
 mols = [Chem.MolFromSmiles(smiles) for smiles in smiles_list]

@@ -17,7 +17,6 @@ print(df_origin.head(30))
 df_origin.to_csv("data/existing_amines_SMILES_AIDs.csv", index=False)
 
 # Part 1 fetch the cids
-# df_origin = pd.read_csv("data/original_set_with_SMILES_and_AIDs.csv", usecols=["CID"])
 cid_list = list(df_origin["CID"])
 new_cid_set = set()
 for cid in cid_list:
@@ -27,13 +26,10 @@ for cid in cid_list:
     print(str(cid)+" is done")
 new_cid_list = list(new_cid_set)
 df_new_cid = pd.DataFrame(new_cid_list, columns=['CID'])
-# df_new_cid.to_csv("data/expanded_CID_list.csv", index=False)
 
 # Part 2 get the SMILES
-# df_new_cid = pd.read_csv("data/expanded_CID_list.csv")
 new_cid_list = list(df_new_cid['CID'])
 df = get_compounds_from_cids(new_cid_list)
-# df.to_csv("data/expanded_set_unfiltered.csv", index=False)
 
 # # Part 3 remove ions and non-amines
 print(df.shape)
