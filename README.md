@@ -1,8 +1,7 @@
 # Amine_Atlas
- This repository has the data and code for our manuscript "AI Informed Toxicity Screening of Amine Chemistries used in the Synthesis of Hybrid Organic-Inorganic Perovskites". The manuscript is currently under peer review. PLEASE DO NOT SHARE THE CODE BEFORE OUR MANUSCRIPT IS PUBLISHED. Thank you!
- 
-An Su and Krishna Rajan<br>
-Zhejiang University of Technology & University at Buffalo-SUNY
+ This repository is for the manuscript "AI Informed Toxicity Screening of Amine Chemistries used in the Synthesis of Hybrid Organic-Inorganic Perovskites" which is currently under revision. The preprint of an earlier version is available at Authorea: https://doi.org/10.22541/au.163251254.47236038/v1 
+
+The revised manuscript is comming soon! 
 
  
 # Amine_Atlas
@@ -50,5 +49,7 @@ Zhejiang University of Technology & University at Buffalo-SUNY
 
 **Authors**
     
-    An Su, Postdoctoral Associate, University at Buffalo, Zhejiang University of Technology
+    An Su, Associate Professor of Research, Zhejiang University of Technology; Former postdoctoral associate, University at Buffalo
+    Yingying Cheng & Haotian Xue, Graduate students, Zhejiang University of Technology
+    Yuanbin She, Professor, Zhejiang University of Technology
     Krishna Rajan, Erich Bloch Chair & Empire Innovation Professor, University at Buffalo
